@@ -1,0 +1,39 @@
+{
+  "user_id": "USR001",
+  "name": "Salomo",
+  "email": "isalomohendriyan@gmail.com",
+
+  "preferences": {
+    "hotel": {
+      "max_budget_per_night": 3000000,
+      "min_rating": 4.0,
+      "preferred_amenities": ["wi-fi", "restaurant", "pool", "gym", "parking"]
+    },
+    "transportation": {
+      "preferred_type": ["plane", "car_rental"],
+      "max_price_plane": 1500000,
+      "max_price_train": 500000,
+      "max_price_bus": 300000
+    },
+    "attractions": {
+      "interests": ["family ", "historical", "landmark"],
+      "max_ticket_price": 1000000,
+      "exclude_categories": ["theme park"]
+    }
+  },
+
+  "behavioral_style": {
+    "trip_style": "relax",  
+    "schedule_tightness": "medium",  
+    "food_preference": ["local", "seafood"],
+    "walking_tolerance": "medium",  
+    "nightlife_interest": false
+  },
+
+  "constraints": {
+    "avoid_crowds": true,
+    "needs_accessibility": false,
+    "must_include": ["sunset spot"],
+    "avoid_locations": ["zoo"]
+  }
+}
